@@ -9,7 +9,7 @@
         "save"
       ]
     },
-    "vue-cli-plugin-custom-tpl1": {
+    "vue-cli-plugin-custom-tpl": {
       "replaceTemplates": true,
       "router": true
     }
