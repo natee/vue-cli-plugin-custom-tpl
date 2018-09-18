@@ -40,8 +40,8 @@ function addDependencies (api) {
       "axios": "^0.18.0",
     },
     devDependencies: {
-      "less": "^3.0.4",
-      "less-loader": "^4.1.0",
+      // "less": "^3.0.4",
+      // "less-loader": "^4.1.0",
     }
   })
 }

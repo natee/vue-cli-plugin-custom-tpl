@@ -1,6 +1,7 @@
 {
   "useConfigFiles": true,
   "router": true,
+  "cssPreprocessor": "less",
   "plugins": {
     "@vue/cli-plugin-babel": {},
     "@vue/cli-plugin-eslint": {
