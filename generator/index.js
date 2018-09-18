@@ -26,7 +26,7 @@ function renderFiles (api, opts) {
     api.render('./templates/base')
 
     if (opts.router) {
-      // files['./src/router.js'] = './templates/sp/src/router.js'
+      // 替换掉路由文件
       api.render('./templates/sp')
     }else{
     }
@@ -38,11 +38,10 @@ function addDependencies (api) {
   api.extendPackage({
     dependencies: {
       "axios": "^0.18.0",
-      "less": "^2.7.3",
-      "less-loader": "^2.2.3",
     },
     devDependencies: {
-
+      "less": "^3.0.4",
+      "less-loader": "^4.1.0",
     }
   })
 }
