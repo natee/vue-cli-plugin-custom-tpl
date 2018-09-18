@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natee/vue-cli-plugin-custom-tpl.git"
+  },
   "keywords": [
     "vue",
     "cli",
@@ -13,6 +17,7 @@
     "template",
     "plugin"
   ],
+  "homepage": "https://github.com/natee/vue-cli-plugin-custom-tpl#readme",
   "author": "Zhao Ke <kerncink@gmail.com>",
   "license": "MIT"
 }

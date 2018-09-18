@@ -20,6 +20,11 @@ export default {
     return {
       msg: 'demo page'
     }
+  },
+  created() {
+    api.login({}).then( res => {
+
+    })
   }
 }
 </script>

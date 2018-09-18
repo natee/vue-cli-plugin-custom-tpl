@@ -10,20 +10,16 @@ function renderFiles (api, opts) {
 
     api.render('./templates/base')
 
-    // let files = {
-    //   // 这个logo直接删除
-    //   // './src/assets/logo.png': '../templates/src/assets/logo.png'
-
-    //   './src/App.vue': './templates/base/src/App.vue',
-    // }
-
+    // 删除默认的几个文件
+    fs.unlink('./src/assets/logo.png')
+    fs.unlink('./src/views/About.vue')
+    fs.unlink('./src/views/Home.vue')
+    
     if (opts.router) {
       // files['./src/router.js'] = './templates/sp/src/router.js'
       api.render('./templates/sp')
     }else{
     }
-
-    // api.render(files, opts)
 
   }
 }
