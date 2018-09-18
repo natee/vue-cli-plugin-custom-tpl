@@ -23,7 +23,8 @@ vue create --preset natee/vue-cli-plugin-custom-tpl my-app
       ]
     },
     "vue-cli-plugin-custom-tpl": {
-      "replaceTemplates": true
+      "replaceTemplates": true,
+      "router": true
     }
   }
 }
@@ -48,16 +49,13 @@ src
 ├── api
 │   └── index.js
 ├── assets
-│   └── logo.png         (待删除)
 ├── components
 │   └── HelloWorld.vue
 ├── main.js
 ├── router.js
 ├── store.js
 └── views
-    ├── About.vue        (待删除)
     ├── Hello.vue
-    └── Home.vue         (待删除)
 
 ```
 

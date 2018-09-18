@@ -10,7 +10,8 @@
       ]
     },
     "vue-cli-plugin-custom-tpl1": {
-      "replaceTemplates": true
+      "replaceTemplates": true,
+      "router": true
     }
   }
 }

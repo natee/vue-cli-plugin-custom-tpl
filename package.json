@@ -4,7 +4,6 @@
   "description": "Custom templates for Vue CLI 3",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
