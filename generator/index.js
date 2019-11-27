@@ -48,6 +48,13 @@ function addDependencies (api) {
 
 module.exports = (api, opts, rootOpts) => {
 
+  api.extendPackage({
+    scripts: {
+      // 测试环境构建，此时NODE_ENV='test_production'
+      test_build: `vue-cli-service build --mode test_production`
+    }
+  })
+
   addDependencies(api)
 
   renderFiles(api, opts)
